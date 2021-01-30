@@ -1,4 +1,4 @@
-<script>
+<script >
 	import Clock from './Clock.svelte';
 	let name='world';
 	let color='blue';
@@ -20,36 +20,35 @@
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 </main>
 
-<style>
+<style type="text/scss">
 	main {
 		text-align: center;
 		padding: 1em;
 		max-width: 240px;
 		margin: 0 auto;
-	}
-	#params{
-		margin: auto 40%;
-	} 
-	#params label {
-			text-align: left;
+		#params{
+			margin: auto 40%;
+			label {
+				text-align: left;
+			}
 		}
-
-	h1 {
-		color: #ff3e00;
-		font-size: 4em;
-		font-weight: 100;
+		h1 {
+			color: #00ff95;
+			font-size: 4em;
+			font-weight: 100;
+		}
+		.swatch {
+			display: inline-block;
+			height:36px;
+			width: 36px;
+			vertical-align: middle;
+		}
 	}
-
-
+	
 	@media (min-width: 640px) {
 		main {
 			max-width: none;
 		}
 	}
 
-	.swatch {
-		display: inline-block;
-		height:20px;
-		width: 20px;
-	}
 </style>
