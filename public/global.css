@@ -12,6 +12,22 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
+#A, #B, #C{
+	float: left;
+	width: 33%;
+}
+
+#A{
+    background-color: coral;
+}
+#B{
+    background-color: aquamarine;
+}
+#C{
+    background-color: aqua;
+}
+
+
 a {
 	color: rgb(0,100,200);
 	text-decoration: none;

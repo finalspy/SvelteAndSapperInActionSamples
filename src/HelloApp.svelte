@@ -1,6 +1,6 @@
 <script >
 	import Clock from './Clock.svelte';
-	let name='world';
+	export let name;
 	let color='blue';
 	let upper=false; 
 	$: greeting = `Hello ${name} !`;
@@ -28,6 +28,7 @@
 		margin: 0 auto;
 		#params{
 			margin: auto 40%;
+			display:contents;
 			label {
 				text-align: left;
 			}
