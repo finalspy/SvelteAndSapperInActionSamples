@@ -11,7 +11,7 @@
 	$: payment =
 		!loanAmount || !years ? 0 :
 		interestRate ? numerator / denominator :
-		loanAmout / months
+		loanAmount / months
 </script>
 
 <main>
